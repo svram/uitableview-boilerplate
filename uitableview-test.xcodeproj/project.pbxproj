@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		8A000C861A49773A0064A73F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A000C851A49773A0064A73F /* main.m */; };
 		8A000C891A49773A0064A73F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A000C881A49773A0064A73F /* AppDelegate.m */; };
-		8A000C8C1A49773A0064A73F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A000C8B1A49773A0064A73F /* ViewController.m */; };
 		8A000C8F1A49773A0064A73F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A000C8D1A49773A0064A73F /* Main.storyboard */; };
 		8A000C911A49773A0064A73F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A000C901A49773A0064A73F /* Images.xcassets */; };
 		8A000C941A49773A0064A73F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A000C921A49773A0064A73F /* LaunchScreen.xib */; };
 		8A000CA01A49773A0064A73F /* uitableview_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A000C9F1A49773A0064A73F /* uitableview_testTests.m */; };
+		8A000CAB1A4977FA0064A73F /* VBBoilerplateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A000CAA1A4977FA0064A73F /* VBBoilerplateTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		8A000C851A49773A0064A73F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A000C871A49773A0064A73F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8A000C881A49773A0064A73F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A000C8A1A49773A0064A73F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A000C8B1A49773A0064A73F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A000C8E1A49773A0064A73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A000C901A49773A0064A73F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8A000C931A49773A0064A73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8A000C991A49773A0064A73F /* uitableview-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "uitableview-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A000C9E1A49773A0064A73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A000C9F1A49773A0064A73F /* uitableview_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uitableview_testTests.m; sourceTree = "<group>"; };
+		8A000CA91A4977FA0064A73F /* VBBoilerplateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBBoilerplateTableViewController.h; sourceTree = "<group>"; };
+		8A000CAA1A4977FA0064A73F /* VBBoilerplateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBBoilerplateTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				8A000C871A49773A0064A73F /* AppDelegate.h */,
 				8A000C881A49773A0064A73F /* AppDelegate.m */,
-				8A000C8A1A49773A0064A73F /* ViewController.h */,
-				8A000C8B1A49773A0064A73F /* ViewController.m */,
 				8A000C8D1A49773A0064A73F /* Main.storyboard */,
+				8A000CA91A4977FA0064A73F /* VBBoilerplateTableViewController.h */,
+				8A000CAA1A4977FA0064A73F /* VBBoilerplateTableViewController.m */,
 				8A000C901A49773A0064A73F /* Images.xcassets */,
 				8A000C921A49773A0064A73F /* LaunchScreen.xib */,
 				8A000C831A49773A0064A73F /* Supporting Files */,
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A000C8C1A49773A0064A73F /* ViewController.m in Sources */,
 				8A000C891A49773A0064A73F /* AppDelegate.m in Sources */,
 				8A000C861A49773A0064A73F /* main.m in Sources */,
+				8A000CAB1A4977FA0064A73F /* VBBoilerplateTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A9B9D12C-E2E4-4AA7-9289-5B439F463488</string>
+	<key>IDESourceControlProjectName</key>
+	<string>uitableview-test</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F4E365FE6D3A3B64AFE76185AD834790366A8ED5</key>
+		<string>https://github.com/svram/uitableview-boilerplate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>uitableview-test.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F4E365FE6D3A3B64AFE76185AD834790366A8ED5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/svram/uitableview-boilerplate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F4E365FE6D3A3B64AFE76185AD834790366A8ED5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4E365FE6D3A3B64AFE76185AD834790366A8ED5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>uitableview-test</string>
+		</dict>
+	</array>
+</dict>
+</plist>
